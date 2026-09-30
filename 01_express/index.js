@@ -4,7 +4,7 @@ import express from "express";
 const app = express();
 // lisnting to the port
 const PORT = 3000;
-npm
+
 //define the route
 app.get("/",(req, res) =>{
     res.send("Hello World")
